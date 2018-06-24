@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>__TITLE__</title>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="__INDEXSTATIC__/css/main.css" />
+<link rel="stylesheet" href="__INDEXSTATIC__/css/style.css" />
+<!-- <link rel="icon" sizes="any" mask href="__INDEXSTATIC__/favicon.svg"> -->
+<!-- <link rel="icon" href="__INDEXSTATIC__favicon.png"> -->
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+<div id="header">
+   <div id="logo"><img src="__INDEXSTATIC__/img/logo.png"></div>
+   <div class="demo_topad"><script src="__INDEXSTATIC__/js/ad_js/demo_topad.js" type="text/javascript"></script></div>
+</div>
+
+<section id="cd-timeline" class="cd-container">
+	{volist name="list" id="vo"}
+    <div class="cd-timeline-block">
+		<div class="cd-timeline-img cd-{$vo.type}">
+			<img src="__INDEXSTATIC__/img/cd-icon-{$vo.type}.svg" alt="{$vo.type}">
+		</div>
+		<div class="cd-timeline-content-{$vo.author}">
+			<h2>{$vo.title}</h2>
+			{//使用原生php对text中的img标签src进行替换，以使用thinkphp的static目录，其中变量不能以volist变量调用，需使用原生方法}
+			<p>{php}echo str_replace("./data/","__INDEXSTATIC__/data/",$vo['text']);{/php}</p>
+			{if condition="$vo.location==null"} 
+				<span style="top:26px" class="cd-date"><img src="__INDEXSTATIC__/img/cd-icon-date.svg">{$vo.time}</span>
+			{else /} 
+				<span style="top:16px" class="cd-date"><img src="__INDEXSTATIC__/img/cd-icon-date.svg">{$vo.time}</span>
+                <br><span style="top:46px;" class="cd-date"><img style="width:20px" src="__INDEXSTATIC__/img/cd-icon-location1.svg">{$vo.location}</span>
+			{/if}
+		</div>
+	</div>
+	{/volist}
+</section>
+<div id="render">
+	{$list->render()}
+</div>
+</body>
+</html>

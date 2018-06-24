@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kode is a Premium Bootstrap Admin Template, It's responsive, clean coded and mobile friendly">
+  <meta name="keywords" content="bootstrap, admin, dashboard, flat admin template, responsive," />
+  <title>注册-__TITLE__</title>
+
+  <!-- ========== Css Files ========== -->
+  <link href="__ADMINSTATIC__/assets/login/css/root.css" rel="stylesheet">
+  <style type="text/css">
+    body{background: #F5F5F5;}
+  </style>
+  </head>
+  <body>
+
+    <div class="login-form">
+      <form>
+        <div class="top">
+          <img src="__ADMINSTATIC__/assets/login/img/logo.png" alt="icon" class="icon">
+          <h1>注册</h1>
+          <h4>我们的爱</h4>
+        </div>
+        <div class="form-area">
+          <div class="group">
+            <input type="text" class="form-control" name="username" placeholder="用户名">
+            <i class="fa fa-user"></i>
+          </div>
+          <div class="group">
+            <input type="text" class="form-control" name="emil" placeholder="邮箱">
+            <i class="fa fa-envelope-o"></i>
+          </div>
+          <div class="group">
+            <input type="password" class="form-control" name="password1" placeholder="密码">
+            <i class="fa fa-key"></i>
+          </div>
+          <div class="group">
+            <input type="password" class="form-control" name="password2" placeholder="再输入一次密码">
+            <i class="fa fa-key"></i>
+          </div>
+          <button type="button" class="btn btn-default btn-block" onclick="register.check();">注册</button>
+        </div>
+      </form>
+
+      <div class="footer-links row">
+        <div class="col-xs-6"><a href="{:url('admin/login/index')}"><i class="fa fa-sign-in"></i>登录</a></div>
+        <div class="col-xs-6 text-right"><a href="{:url('admin/login/forgot_password')}"><i class="fa fa-lock"></i>忘记密码</a></div>
+      </div>
+    </div>
+
+<script src="__PUBLICSTATIC__/js/jquery-3.3.1.min.js"></script>
+<script src="__PUBLICSTATIC__/js/layer/layer.js"></script>
+<script src="__PUBLICSTATIC__/js/dialog.js"></script>
+<script src="__PUBLICSTATIC__/js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1499416070527" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3138" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"><defs><style type="text/css">@font-face { font-family: SimSun; src: local("Microsoft YaHei"); }
+@font-face { font-family: 宋体; src: local("Microsoft YaHei"); }
+@font-face { font-family: NSimSun; src: local("Microsoft YaHei"); }
+@font-face { font-family: 新宋体; src: local("Microsoft YaHei"); }
+@font-face { font-family: SimHei; src: local("Microsoft YaHei"); }
+@font-face { font-family: 黑体; src: local("Microsoft YaHei"); }
+@font-face { font-family: "STHeiti SC"; src: local("PingFang SC"); }
+@font-face { font-family: MingLiU; src: local("Microsoft JhengHei"); }
+@font-face { font-family: MingLiU-ExtB; src: local("Microsoft JhengHei"); }
+@font-face { font-family: MingLiU_HKSCS; src: local("Microsoft JhengHei"); }
+@font-face { font-family: MingLiU_HKSCS-ExtB; src: local("Microsoft JhengHei"); }
+@font-face { font-family: PMingLiU; src: local("Microsoft JhengHei"); }
+@font-face { font-family: PMingLiU-ExtB; src: local("Microsoft JhengHei"); }
+@font-face { font-family: "STHeiti TC"; src: local("PingFang TC"); }
+@font-face { font-family: Arial; src: local("Segoe UI"); }
+@font-face { font-family: Tahoma; src: local("Segoe UI"); }
+@font-face { font-family: Verdana; src: local("Segoe UI"); }
+@font-face { font-family: Helvetica; src: local("Segoe UI"); }
+@font-face { font-family: Courier; src: local("Consolas"); }
+@font-face { font-family: "Courier New"; src: local("Consolas"); }
+</style></defs><path d="M511.786667 85.333333C276.053333 85.333333 85.333333 276.266667 85.333333 512s190.72 426.666667 426.453334 426.666667C747.52 938.666667 938.666667 747.733333 938.666667 512S747.52 85.333333 511.786667 85.333333zM512 853.333333c-188.586667 0-341.333333-152.746667-341.333333-341.333333S323.413333 170.666667 512 170.666667s341.333333 152.746667 341.333333 341.333333-152.746667 341.333333-341.333333 341.333333z m149.333333-384c35.413333 0 64-28.586667 64-64s-28.586667-64-64-64-64 28.586667-64 64 28.586667 64 64 64z m-298.666666 0c35.413333 0 64-28.586667 64-64s-28.586667-64-64-64-64 28.586667-64 64 28.586667 64 64 64z m149.333333 277.333334c99.413333 0 183.68-62.08 217.813333-149.333334H294.186667c34.133333 87.253333 118.4 149.333333 217.813333 149.333334z" p-id="3139" fill="#ffffff"></path></svg>
