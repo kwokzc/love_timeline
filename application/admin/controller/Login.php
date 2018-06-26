@@ -10,8 +10,12 @@ class Login extends Controller
     // 输出登录界面前台页面
     public function index()
     {
-        // return $love_day;
-        return view();
+        // 如果已经登录过，进入登录页面自动跳转到后台
+        if (Session::get('username')) {
+            $this->redirect('admin/index/index');
+        }else{
+            return view();
+        }
     }
     // 登录效验
     public function login_check()
