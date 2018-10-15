@@ -19,4 +19,18 @@ class Index extends Controller
     	// $view->love_day = day_interval('config.love_day',time());
         return $view->fetch();
     }
+    public function table()
+    {
+        $view = new view();
+        $view->username = Session::get('username');
+        
+        return $view->fetch();
+    }
+    public function form()
+    {
+        $view = new view();
+        $view->username = Session::get('username');
+        
+        return $view->fetch();
+    }
 }
